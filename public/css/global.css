@@ -1,0 +1,158 @@
+body {
+	background:#FFF;
+	color:#333333;
+	font-size: 12px !important;
+	font-family: Helvetica, sans-serif !important;
+	letter-spacing: .03em !important;
+}
+
+h1, h2, h3 {
+	font-family:'BlenderMedium', sans-serif;
+	margin-top:0;
+}
+
+h1 {
+	color:#808080;
+	font-size:2.25em;
+	margin-top:0;
+}
+
+h2 {
+	color:#005B7F;
+	font-size:1.5em;
+}
+
+h3 {
+	color:#808080;
+	font-size:14px;
+	margin-bottom:0;
+	margin-top:30px;
+}
+
+li {
+	margin-bottom:20px;
+}
+
+#header #logo {
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	width:400px;
+}
+
+#header #logo img {
+	margin:0;
+}
+
+#header #logo #project-info {
+	margin-top:13px;
+}
+
+#header #logo #project-info img {
+	margin:7px 10px;
+}
+
+#header #logo #project-info a {
+	text-decoration:none;
+}
+
+#header #logo h1 {
+	color:#534741;
+	font-size:3em;
+}
+
+#container {
+	margin:30px auto;
+	position:relative;
+}
+
+#content {
+	border:1px solid #E6E6E6;
+	border-radius:5px;
+	padding:30px 40px 0 30px;
+	margin-bottom:20px;
+}
+
+.subsection {
+	border-top:1px solid #F2F2F2;
+	margin:40px 0;
+	padding-top:30px;
+}
+
+#content img {
+	margin:30px 0;
+}
+
+#sidebar {
+	border:1px solid #B7C4C5;
+	border-radius:5px;
+	height:auto;
+}
+
+#sidebar a {
+	border-bottom:1px solid #B7C4C5;
+	color:#303030;
+	font-size:13px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+}
+
+#sidebar .last {
+	border-bottom:none;
+}
+
+#sidebar .active a {
+	background:#D1D1D1;
+	color:#005B7F;
+}
+
+.affix-top {
+	position:fixed;
+	top:10px;
+	margin-left:732px;
+}
+
+.nav, .nav li {
+	margin-bottom:0;
+	text-align:right;
+}
+
+.nav-heading {
+	background:url('../img/accordion-arrow-up.gif') no-repeat 15px center #EEF1F1;
+	display:block;
+	text-align:right;
+}
+
+.active-nav {
+	background:url('../img/accordion-arrow-dwn.gif') no-repeat 15px center #EEF1F1;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	.affix-top {
+		margin-left:902px;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	#sidebar {
+		margin-left:8px;
+	}
+	#sidebar.affix-top {
+		margin-left:576px;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
+
