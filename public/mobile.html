@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Threshold&trade; -  Features</title>
+    <title>Threshold&trade; -  Mobile</title>
     <!-- Bootstrap -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
         <div class="row">
           <div class="span12">
             <h3 class="center">Grid View<br/><span class="subhead">Save time by uploading multiple photos at once</span></h3>
-            <div id="mobileCarousel" class="carousel slide">
+            <div id="mobileCarousel" class="carousel slide visible-desktop">
               <div class="carousel-inner">
                 <div class="item active"><img src="img/mobile-grid1.jpg" /></div>
                 <div class="item"><img src="img/mobile-grid2.jpg" /></div>
@@ -83,10 +83,10 @@
               <p>Send your photos to the correct location on your plans.</p>
             </div>
 
-            <div id="mobile-organize-carousel" class="carousel slide offset6">
+            <div id="mobile-organize-carousel" class="carousel slide offset6 visible-desktop">
               <div class="carousel-inner">
-                <div class="item active"><img src="img/mobile-organize1.jpg" /></div>
-                <div class="item"><img src="img/mobile-organize2.jpg" /></div>
+                <div class="item active"><img src="img/mobile-organize1.png" /></div>
+                <div class="item"><img src="img/mobile-organize2.png" /></div>
               </div>
             </div>
           </div>
@@ -102,20 +102,21 @@
             </div>
           </div>
           <div class="row">
-            <div class="span4 offset1">
+            <div class="span4 offset1" style="position:relative;">
+              <div class="vertical-divider visible-desktop"></div>
               <h4 class="center">Choose your details</h4>
-              <img src="img/tags.jpg" />
+              <img src="img/details.png" />
               <p>Select whether your photos are private or public and whether you want to upload a high-res vs. smaller version for quicker uploads. Also choose which plans and orientations you want to associate with your photos.</p>
             </div>
             <div class="span4 offset2">
               <h4 class="center">Add some tags</h4>
-              <img src="img/details.png" />
+              <img src="img/tags.jpg" />
               <p>Threhsold Mobile enables you to add custom tags right from the app. This means you can document as-builts on the fly and organize your photos by your own criteria. </p>
             </div>
           </div>
         </div>
       </section>
-      
+
       <section id="share">
         <div class="center">
           <h2>Share threshold with everyone</h2>
@@ -176,7 +177,7 @@
           <p>Your first project is <strong>free</strong> for 45 days.</p>
           <a href="https://app.thresholdcm.com/account/sign_up" class="btn btn-primary">Create Account</a>
           <a href="pricing.html" class="btn">Pricing</a>
-          <p>
+          <p class="download-link">
             Get it on the app store<br />
             <a href="https://itunes.apple.com/us/app/thresholdcm/id557749343?ls=1&mt=8" class="btn small btn-info">Download</a>
           </p>
@@ -202,7 +203,22 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slides.min.jquery.js"></script>
     <script>
-      $('.carousel').carousel();
+      $('.carousel').carousel({
+        interval: 2500
+      });
+    </script>
+    <!-- Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28842847-1']);
+      _gaq.push(['_setDomainName', 'thresholdcm.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
     </script>
   </body>
 </html>

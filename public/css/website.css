@@ -1,3 +1,17 @@
+/*************** @font-face  *****************/
+@font-face {
+    font-family: 'blenderbold';
+    src: url('../fonts/blender-bold/blender-bold-webfont.eot');
+    src: url('../fonts/blender-bold/blender-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/blender-bold/blender-bold-webfont.woff') format('woff'),
+         url('../fonts/blender-bold/blender-bold-webfont.ttf') format('truetype'),
+         url('../fonts/blender-bold/blender-bold-webfont.svg#blenderbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*************** Generic  *****************/
+
 .container {
   margin: 0 auto;
 }
@@ -19,6 +33,9 @@ p {
   color: #FF6600;
 }
 
+h1 {
+  font-family: 'blenderbold';
+}
 
 /*************** Navigation  *****************/
 .navbar {
@@ -79,7 +96,6 @@ footer p.copywrite a {
   color: #666;
   margin:0 10px;
 }
-
 /************** Buttons *************/
 .btn, .btn:hover {
   background-color: #999999;
@@ -90,6 +106,7 @@ footer p.copywrite a {
   border-radius: 4px;
   font-size: 16px;
   font-weight: 400;
+  text-shadow:none;
 }
 .btn-info, .btn-info:hover {
   background-color: #2484C9;
@@ -272,6 +289,7 @@ div.header-title h1 {
 }
 div.header-title h1 span {
   color: #9D9D9D;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-weight: 300;
 }
@@ -281,7 +299,7 @@ div.header-title h1, div.header-title h2 {
 }
 section.hero .hero-laptop {
   height: 340px;
-  background: url('../img/hero-laptop.png') left -3px no-repeat;
+  background: url('../img/computer.png') left -3px no-repeat;
 }
 section.hero .hero-laptop-text {
   padding-bottom: 15px;
@@ -308,7 +326,7 @@ section.upsell-learn p {
 section.upsell-learn a.learn-link {
   color: #F2F2F2;
   display: inline-block;
-  background-color: #8C8C8C;
+  background-color: #8FABB3;
   border-radius: 4px;
   padding: 0 8px;
   font-size: 12px;
@@ -485,12 +503,8 @@ section.easy-steps h4 .step {
 
 #step-2 {
   background:url('../img/dynamic.png') no-repeat;
-  height:360px;
-  padding:0;
-}
-
-#step-2 .span4 {
-  margin-top:60px;
+  height:300px;
+  padding:60px 0 0 0;
 }
 
 #step-3 {
@@ -515,13 +529,18 @@ section.upsell-boxes .span5 {
 section.upsell-boxes .upsell-left {
   margin-left:20px;
 }
-section.upsell-boxes .vertical-divider{
+section.upsell-boxes .vertical-divider,
+section#mobile-details .vertical-divider{
   height: 250px;
   width: 1px;
   position: absolute;
   margin-top: 20px;
   right: 0;
   background-color: #EEE;
+}
+section#mobile-details .vertical-divider {
+  right:auto;
+  left:380px;
 }
 section.upsell-boxes .row {
   margin-left: 10px;
@@ -700,13 +719,17 @@ section.hero-mobile .download-link {
   left:130px;
 }
 
+.page-mobile .download-link {
+  margin-top:20px;
+}
+
 section#organize {
   background:#fafafa;
   padding-top:40px;
 }
 
 #mobile-organize-carousel {
-  background:url('../img/mobile-organize-background.jpg') no-repeat;
+  background:url('../img/mobile-organize-background.png') no-repeat;
   width:523px;
   height:518px;
   margin-bottom:0;
@@ -729,7 +752,8 @@ section#mobile-upsell {
   background-color: #F2F2F2;
   padding-top: 30px;
 }
-section#mobile-upsell .vertical-divider {
+section#mobile-upsell .vertical-divider,
+section#mobile-details .vertical-divider {
   background-color: #DDDDDD;
 }
 section#mobile-upsell hr {
@@ -979,6 +1003,17 @@ body.about-us {
   section#step-3 .container .hero {
     background-size: contain;
   }
+  #step-1{
+    background-position:340px;
+    background-size:50%;
+  }
+  #step-2{
+    background-position:-50px center;
+  }
+  #step-3{
+    background-position:340px center;
+    background-size:50%;
+  }
 }
  
 /* Landscape phone to portrait tablet */
@@ -1043,8 +1078,18 @@ body.about-us {
     background: none !important;
     color: #597781;
   }
-}
 
+  section.easy-steps .step-wrapper {
+    border:none;
+    border-bottom:1px solid #E6E6E6;
+  }
+  #step-3, #step-2, #step-1 {
+    background:none;
+    height:auto;
+    padding:20px 0;
+  }
+}
+ 
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .navbar-inner {
