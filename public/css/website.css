@@ -64,7 +64,7 @@ footer {
 footer a {
   color: #FFF;
   display: inline-block;
-  margin-right: 30px;
+  margin: 0 25px;
 }
 footer a:last-child {
   margin-right: 0;
@@ -74,6 +74,12 @@ footer p.copywrite {
   font-size: 12px;
   margin-top: 20px;
 }
+
+footer p.copywrite a {
+  color: #666;
+  margin:0 10px;
+}
+
 /************** Buttons *************/
 .btn, .btn:hover {
   background-color: #999999;
@@ -893,6 +899,40 @@ section#faq a {
   background:url('../img/collapse-arrow-closed.png') no-repeat left 9px;
 }
 
+/****************** About Us page ****************/
+body.about-us {
+  color: #666666;
+  font-size:16px;
+}
+
+#contant-us-block {
+  margin-bottom:25px;
+}
+
+.social img {
+  margin:-3px 10px 0;
+}
+
+.social a {
+  color: #666;
+  display:inline-block;
+}
+
+#about-us-block {
+  background:#fafafc;
+  border-top: 2px solid #e6e6e6;
+  border-bottom: 2px solid #e6e6e6;
+  padding:35px 0;
+  font-size:14px;
+}
+
+.profile { margin-bottom:50px; }
+.profile.last { margin-bottom: 0; }
+.profile-pic { width:122px; height:122px; }
+.profile-title { margin:10px 0; }
+.linkedin { margin-left:40px; }
+.linkedin img { margin-top:-3px; }
+
 /****************** Media Querries ****************/
 
 /* Large desktop */
@@ -1004,7 +1044,7 @@ section#faq a {
     color: #597781;
   }
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .navbar-inner {
