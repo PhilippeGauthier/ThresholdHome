@@ -814,6 +814,11 @@ div.tick {
   font-size: 10px;
   font-weight: 700;
 }
+section#pricing small {
+  font-size:18px;
+  font-weight:normal;
+}
+
 section#pricing div.price_module {
   border: 1px solid #E6E6E6;
   color: #8A9A99;
