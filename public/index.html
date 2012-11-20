@@ -148,7 +148,7 @@
 
     <div class="modal hide fade" id="demo-modal" style="width:1024px; height:576px; margin-left:-512px; margin-top:-300px">
       <div class="modal-body" style="padding:0px; height:576px; max-height:576px; overflow:hidden;">
-        <iframe id="demo-video" src="http://player.vimeo.com/video/53952420?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;fullscreen=1&amp;api=1&amp;player_id=demo-video" width="1024" height="576" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe id="demo-video" src="http://player.vimeo.com/video/53952420?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;fullscreen=1&amp;api=1&amp;hd_off=0&amp;player_id=demo-video" width="1024" height="576" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
     </div>
 
@@ -163,8 +163,14 @@
         // Vimeo API events
         var iframe = $('#demo-video')[0], player = $f(iframe);
         player.addEvent('ready', function() {
+
           player.api('seekTo', 0);
-          player.api('pause');
+
+          // Need to set a delay to prevent the above seekTo from playing automatically.
+          setTimeout(function() {
+            player.api('pause');
+          }, 1000);
+
           player.addEvent('finish', function() {
             $('#demo-modal').modal('hide');
           });
