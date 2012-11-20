@@ -146,27 +146,66 @@
       </div>
     </footer>
 
-    <div class="modal hide fade" id="myModal" style="width:1024px; height:576px; margin-left:-512px; margin-top:-300px">
+    <div class="modal hide fade" id="demo-modal" style="width:1024px; height:576px; margin-left:-512px; margin-top:-300px">
       <div class="modal-body" style="padding:0px; height:576px; max-height:576px; overflow:hidden;">
-        <object width="1024" height="576">
-          <param name="allowfullscreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=53952420&amp;server=vimeo.com&amp;color=00adef&amp;fullscreen=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autoplay=1" />
-          <embed src="http://vimeo.com/moogaloop.swf?clip_id=53952420&amp;server=vimeo.com&amp;color=00adef&amp;fullscreen=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autoplay=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="1024" height="576"></embed>
-        </object>
+        <iframe id="demo-video" src="http://player.vimeo.com/video/53952420?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;fullscreen=1&amp;api=1" width="1024" height="576" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
     </div>
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Video -->
+    <!-- Demo Video Code -->
     <script type="text/javascript">
       $().ready(function() {
+        var f = $('#demo-video')
+        var url = f.attr('src').split('?')[0]
+
+        if (window.addEventListener){
+          window.addEventListener('message', onMessageReceived, false);
+        } else {
+          window.attachEvent('onmessage', onMessageReceived, false);
+        }
+
+        function onMessageReceived(e) {
+          var data = JSON.parse(e.data);
+
+          switch (data.event) {
+            case 'ready':
+              onReady();
+              break;
+            case 'finish':
+              onFinish();
+              break;
+          }
+        }
+
+        function post(action, value) {
+          var data = { method: action };
+          if (value) { data.value = value; }
+          f[0].contentWindow.postMessage(JSON.stringify(data), url);
+        }
+
+        function onReady() {
+          post('addEventListener', 'finish');
+          if ($.browser.mozilla) {
+            post('play');
+          }
+        }
+
+        function onFinish() {
+          $('#demo-modal').modal('hide')
+        }
+
         $('#toggle-video').click(function() {
-          $('#myModal').modal()
-          // $f(($('#demo-video')[0]).api('pause')
+          $('#demo-modal').modal()
+          post('play');
         });
+
+        $('#demo-modal').on('hide', function () {
+          $('#demo-video')[0].src = $('#demo-video')[0].src
+        })
+
       });
     </script>
 
