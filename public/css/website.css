@@ -299,6 +299,7 @@ div.header-title h1, div.header-title h2 {
 }
 section.hero .hero-laptop {
   height: 340px;
+  cursor: pointer;
   background: url('../img/computer.png') left -3px no-repeat;
 }
 section.hero .hero-laptop-text {

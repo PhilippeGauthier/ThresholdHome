@@ -36,7 +36,7 @@
       <section>
         <div class="container">
           <section class="hero row-fluid">
-            <div class="span8 hero-laptop hidden-phone">&nbsp;</div>
+            <div class="span8 hero-laptop hidden-phone" id="toggle-video">&nbsp;</div>
             <div class="span4 hero-laptop-text">
               <p>
                 Threshold is the fastest and most comprehensive way to document your jobsite. And now you can <strong>photograph</strong>, <strong>organize</strong>, and <strong>send</strong> your progress photos to Threshold right from your mobile device. It's completely <strong>free</strong> with every Threshold project.
@@ -145,8 +145,31 @@
         </p>
       </div>
     </footer>
+
+    <div class="modal hide fade" id="myModal" style="width:1024px; height:576px; margin-left:-512px; margin-top:-300px">
+      <div class="modal-body" style="padding:0px; height:576px; max-height:576px; overflow:hidden;">
+        <object width="1024" height="576">
+          <param name="allowfullscreen" value="true" />
+          <param name="allowscriptaccess" value="always" />
+          <param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=53952420&amp;server=vimeo.com&amp;color=00adef&amp;fullscreen=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autoplay=1" />
+          <embed src="http://vimeo.com/moogaloop.swf?clip_id=53952420&amp;server=vimeo.com&amp;color=00adef&amp;fullscreen=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autoplay=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="1024" height="576"></embed>
+        </object>
+      </div>
+    </div>
+
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Video -->
+    <script type="text/javascript">
+      $().ready(function() {
+        $('#toggle-video').click(function() {
+          $('#myModal').modal()
+          // $f(($('#demo-video')[0]).api('pause')
+        });
+      });
+    </script>
+
     <!-- Analytics -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
