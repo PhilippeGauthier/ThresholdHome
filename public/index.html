@@ -148,63 +148,32 @@
 
     <div class="modal hide fade" id="demo-modal" style="width:1024px; height:576px; margin-left:-512px; margin-top:-300px">
       <div class="modal-body" style="padding:0px; height:576px; max-height:576px; overflow:hidden;">
-        <iframe id="demo-video" src="http://player.vimeo.com/video/53952420?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;fullscreen=1&amp;api=1" width="1024" height="576" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe id="demo-video" src="http://player.vimeo.com/video/53952420?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;fullscreen=1&amp;api=1&amp;player_id=demo-video" width="1024" height="576" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
     </div>
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/froogaloop.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Demo Video Code -->
     <script type="text/javascript">
-      $().ready(function() {
-        var f = $('#demo-video')
-        var url = f.attr('src').split('?')[0]
+      $(document).ready(function() {
 
-        if (window.addEventListener){
-          window.addEventListener('message', onMessageReceived, false);
-        } else {
-          window.attachEvent('onmessage', onMessageReceived, false);
-        }
-
-        function onMessageReceived(e) {
-          var data = JSON.parse(e.data);
-
-          switch (data.event) {
-            case 'ready':
-              onReady();
-              break;
-            case 'finish':
-              onFinish();
-              break;
-          }
-        }
-
-        function post(action, value) {
-          var data = { method: action };
-          if (value) { data.value = value; }
-          f[0].contentWindow.postMessage(JSON.stringify(data), url);
-        }
-
-        function onReady() {
-          post('addEventListener', 'finish');
-          if ($.browser.mozilla) {
-            post('play');
-          }
-        }
-
-        function onFinish() {
-          $('#demo-modal').modal('hide')
-        }
-
-        $('#toggle-video').click(function() {
-          $('#demo-modal').modal()
-          post('play');
+        // Vimeo API events
+        var iframe = $('#demo-video')[0], player = $f(iframe);
+        player.addEvent('ready', function() {
+          player.api('seekTo', 0);
+          player.api('pause');
+          player.addEvent('finish', function() {
+            $('#demo-modal').modal('hide');
+          });
         });
 
-        $('#demo-modal').on('hidden', function () {
-          $('#demo-video')[0].src = $('#demo-video')[0].src
-        })
+        $('#toggle-video').click(function()       { $('#demo-modal').modal(); }); // Show the modal
+        $('#demo-modal').on('shown', function ()  { player.api('play');       }); // Start the video when the modal is in view
+        $('#demo-modal').on('hide', function ()   { player.api('pause');      }); // Pause the video on hide
+        $('#demo-modal').on('hidden', function () { player.api("seekTo", 0);  }); // Reset the video when the modal is hidden
 
       });
     </script>
