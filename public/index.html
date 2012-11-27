@@ -167,11 +167,9 @@
           player.api('seekTo', 0);
 
           // Need to set a delay to prevent the above seekTo from playing automatically.
-          setTimeout(function() {
-            if ($('#demo-modal').is(':hidden')) {
-              player.api('pause');
-            }
-          }, 1000);
+          if ($('#demo-modal').is(':hidden') && !player.api('paused')) {
+            player.api('pause');
+          }
 
           player.addEvent('finish', function() {
             $('#demo-modal').modal('hide');
