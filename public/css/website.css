@@ -171,7 +171,7 @@ footer p.copywrite a {
 .sprite.simplify {
   background-position: -96px -62px;
   height: 34px;
-  width: 25px;
+  width: 32px;
 }
 .sprite.dynamic {
   background-position: 0 -122px;
@@ -237,17 +237,17 @@ a:hover .sprite.tagging,
 .sprite.available {
   background-position: -28px -667px;
   height: 28px;
-  width: 28px;  
+  width: 28px;
 }
 .sprite.customize {
   background-position: -56px -667px;
   height: 28px;
-  width: 28px;  
+  width: 28px;
 }
 .sprite.security {
   background-position: -84px -667px;
   height: 28px;
-  width: 28px;  
+  width: 28px;
 }
 .sprite.people {
   background-position: -183px -198px;
@@ -280,7 +280,7 @@ article.container > section {
   overflow: hidden;
 }
 div.header-title {
-  margin: 60px 0;
+  padding: 90px 0 90px;
 }
 div.header-title h1 {
   color: #000;
@@ -398,12 +398,21 @@ section#get-started a.btn.small {
 
 /****************** Features ****************/
 section.hero-wires {
-  height: 400px;
+  margin: 30px 0 0
+  max-height: 701px;
   background: url('../img/features_header.jpg') center top no-repeat;
   background-size: cover;
 }
 section.carousel {
   background: url('../img/linen.png') 0 -69px repeat-x;
+}
+
+div.features.header-title h1 {
+  color: #fff;
+}
+
+div.features.header-title h1 span {
+  color: #e5e5e5;
 }
 
 section.carousel h2 {
@@ -436,7 +445,7 @@ section.carousel .pagination div.sprite {
   float: left;
   margin-right: 15px;
 }
-section.carousel .pagination p { 
+section.carousel .pagination p {
   margin: 20px;
 }
 section.carousel .pagination a {
@@ -471,6 +480,67 @@ section.thirds.dark h3 {
 section.thirds p {
   margin-top: 15px;
   color: #AAA;
+}
+
+.section-content {
+  background:url('../img/wires_bg.png');
+  -webkit-box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.05);
+  -moz-box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.05);
+  box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.05);
+}
+
+.intro-links {
+  max-width:964px;
+  margin:0px auto;
+  position: relative;
+  height: 100%;
+  padding: 30px 0 60px;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.intro-link::before {
+  content: attr(data-section);
+  display: block;
+  width: 105px;
+  height: 105px;
+  margin: 0 auto 10px;
+  font: 0/0 'a';
+  color: transparent;
+  text-shadow: none;
+}
+
+.intro-link[data-section=slot1]::before {
+  background: url('../img/features_icon_1.png');
+}
+.intro-link[data-section=slot2]::before {
+  background: url('../img/features_icon_2.png');
+}
+.intro-link[data-section=slot3]::before {
+  background: url('../img/features_icon_3.png');
+}
+.intro-link[data-section=slot4]::before {
+  background: url('../img/features_icon_4.png');
+}
+
+.intro-link {
+  float: left;
+  width: 25%;
+  padding: 25px 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.intro-link strong {text-shadow: 0.1em 0.1em #333}
+
+.intro-link h3 {
+  font-size:1.3em;
+  font-weight:300;
+  text-align:center;
 }
 
 /*//////////////////////////////////////////////////////////////////////*/
@@ -593,6 +663,7 @@ section#document-everything .text a{
   text-decoration: underline;
 }
 section#chatter {
+  border-top:2px solid #d9d9d9;
   background-color: #EBF0F3;
 }
 section#chatter .container {
@@ -855,7 +926,7 @@ section#pricing div.price_module.last h2 {
 }
 
 section#slider_container {
-  padding: 40px 0;
+  padding: 20px 0 40px;
 }
 div.tick.last {
   margin: 0 -2px;
@@ -885,6 +956,7 @@ section#trial_project h3 {
 section#trial_project {
   background-color: #F2F2F2;
   padding: 25px 0;
+  margin:0 auto;
 }
 section#trial_project h3 {
   color: #6E6E6E;
@@ -930,6 +1002,8 @@ section#faq a {
 .collapsed {
   background:url('../img/collapse-arrow-closed.png') no-repeat left 9px;
 }
+
+span.savings { color: #999999; }
 
 /****************** About Us page ****************/
 body.about-us {
@@ -990,7 +1064,7 @@ body.about-us {
     margin-top: 25px;
   }
   section#chatter .container {
-    background: transparent; 
+    background: transparent;
     height: auto;
   }
   section#chatter .chat_bubble,
@@ -1023,7 +1097,7 @@ body.about-us {
     background-size:50%;
   }
 }
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
@@ -1036,8 +1110,9 @@ body.about-us {
     margin-right: 15px;
   }
   section.hero-wires {
-    height: 300px;
+    /* height: 300px; */
   }
+
   section#document-everything {
     height: 300px;
     background-image: none;
@@ -1096,8 +1171,21 @@ body.about-us {
     height:auto;
     padding:20px 0;
   }
+
+  .section-content .intro-link {
+    width: 50%;
+  }
+
 }
- 
+
+@media(max-width: 568px) {
+  .section-content .intro-links {
+    padding: 0px 0;
+    margin-top: -10px;
+    width: 100%;
+  }
+}
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .navbar-inner {
@@ -1117,9 +1205,12 @@ body.about-us {
     width: 100%;
   }
   section.hero-wires {
-    height: 200px;
+    /* height: 200px; */
   }
   section#get-started a.btn-primary {
     margin-right: 0px;
+  }
+  .section-content .intro-link {
+    width: 100%;
   }
 }
