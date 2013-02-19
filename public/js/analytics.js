@@ -33,7 +33,7 @@ mixpanel.init("eaf4754f3bd2c7479c70a831d386c5d0");
   $('.trackable').each(function() {
     mixpanel.track_links('#'+ $(this).attr("id"), "Link Clicked", {
       "Page" : $('body').data('description'),
-      "Info" : $(this).attr('id')
+      "Info" : $(this).text()
     });
   });
 
