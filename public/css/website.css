@@ -906,7 +906,6 @@ section#pricing div.price_module h2 {
 }
 section#pricing div.price_module strong,
 section#pricing div.price_module h2 {
-  color: #80CBB6;
   font-size: 32px;
   font-weight: 600;
 }
@@ -916,12 +915,22 @@ section#pricing div.price_module.last {
   border-right: none;
 }
 
-section#pricing div.price_module.first strong,
-section#pricing div.price_module.first h2 {
-  color: #8A9A99;
+section#pricing div.price_module.free strong,
+section#pricing div.price_module.free h2 {
+  color: #CCCCCC;
 }
-section#pricing div.price_module.last strong,
-section#pricing div.price_module.last h2 {
+
+section#pricing div.price_module.small strong,
+section#pricing div.price_module.small h2 {
+  color: #808080;
+}
+
+section#pricing div.price_module.medium strong,
+section#pricing div.price_module.medium h2 {
+  color: #80CBB6;
+}
+section#pricing div.price_module.large strong,
+section#pricing div.price_module.large h2 {
   color: #4AC3F2;
 }
 
