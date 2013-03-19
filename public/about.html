@@ -13,46 +13,45 @@
   <body class="about-us" data-description="About Us">
     <div class="container">
       <div class="navbar">
+        <div class="span4 logo">
+          <a href="/"><h1>THRESHOLD</h1></a>
+        </div>
         <div class="navbar-inner">
           <ul class="nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="features.html">Features</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li class="active"><a href="about.html">About Us</a></li>
+            <li><a href="mobile.html" id="header-mobile" class="trackable">Mobile</a></li>
+            <li><a href="pricing.html" id="header-pricing" class="trackable">Pricing</a></li>
+            <li class="active"><a href="about.html" id="header-about-us" class="trackable">About Us</a></li>
           </ul>
           <div class="pull-right">
-            <a class="btn btn-info signin" href="https://app.thresholdcm.com/account/sign_in">Sign In</a>
+            <a id="sign-in" class="btn btn-info signin trackable" href="https://app.thresholdcm.com/account/sign_in">Sign In</a>
           </div>
         </div>
       </div>
     </div>
-    <article>
+    
       <div class="header-title">
-        <h1>
-          About Us <br />
-          <span>Contact us and learn more about our company</span>
-        </h1>
+        <h1 class="center">About Us</h1>
+        <h2 class="center">Contact us and learn more about our company</h2>
       </div>
 
       <section id="contant-us-block">
         <div class="container">
           <section class="row-fluid">
-            <div class="span6">
+            <div class="span7">
               <h4>Contact Us:</h4>
-              We'd love to hear from you so give us a call or send us an email.
+              <p>We&rsquo;d love to hear from you so give us a call or send us an email.</p>
               <p>
                 (415) 286-5174<br />
                 <a href="mailto:info@383studio.com">info@383studio.com</a>
               </p>
             </div>
-            <div class="span6">
+            <div class="span5">
               <h4>Learn More:</h4>
-              Follow us on our blog by visiting:<br />
+              <p>Follow us on our blog by visiting:</p>
               <a href="http://blog.thresholdcm.com">blog.thresholdcm.com</a>
               <p class="social">
-                <a href="https://www.facebook.com/Thresholdcm/"><img src="img/facebook.png" /> Facebook</a>
-                <a href="http://twitter.com/thresholdcm"><img src="img/twitter.png" /> Twitter</a>
+                <a href="https://www.facebook.com/Thresholdcm/"><img src="img/facebook.png" class="facebook" /> Facebook</a>
+                <a href="http://twitter.com/thresholdcm"><img src="img/twitter.png" class="twitter" /> Twitter</a>
               </p>
             </div>
           </section>
@@ -108,7 +107,17 @@
       </section>
 
       <!-- Fake Height -->
-      <section id="get-started" style="height:116px;"></section>
+      <section id="get-started">
+        <div class="center">
+          <p>Get started by creating a <span class="em">free</span> account today.</p>
+          <a href="https://app.thresholdcm.com/account/sign_up" class="btn btn-info btn-large trackable" id="footer-create-account">Get Started</a>
+          <a href="mailto:demos@383studio.com" class="btn btn-success btn-large trackable" id="footer-features">Request Demo</a>
+          <p class="download-link">
+            Get it on the app store<br />
+            <a href="https://itunes.apple.com/us/app/thresholdcm/id557749343?ls=1&mt=8" class="btn small">Download</a>
+          </p>
+        </div>
+      </section>
     </article>
     <footer>
       <div class="container center">
