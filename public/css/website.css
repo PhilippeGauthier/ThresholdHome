@@ -407,9 +407,7 @@ section.hero-wires .video-bar #toggle-video {
 }
 
 section#document {
-  background:#fafafa;
-  border-bottom:1px solid #e5e5e5;
-  padding:60px 0;
+   padding:60px 0;
 }
 
 section#document .sprite {
@@ -726,8 +724,15 @@ section.hero-mobile .mobile-devices {
   margin-left:400px;
 }
 
-#mobile-grid-view {
-  margin-top:40px;
+section#mobile-grid-view {
+  margin-top:-160px;
+  padding-top:170px;
+  background:#fafafa;
+  border-bottom:1px solid #e5e5e5;
+}
+  
+.row.organize {
+  margin-top:80px;
   margin-bottom:40px;
 }
 
@@ -760,25 +765,21 @@ section.hero-mobile .mobile-devices {
   left:130px;
 }
 
-section#organize {
-  padding-top:40px;
-}
-
-section#organize h4 {
+section#mobile-grid-view h4 {
   padding: 2px 0 5px 40px;
 }
 
-section#organize h4.comments{
+section#mobile-grid-view h4.comments{
   background:url('../img/comments.png') no-repeat;
 
 }
 
-section#organize h4.search{
+section#mobile-grid-view h4.search{
   background:url('../img/search.png') no-repeat;
 
 }
 
-section#organize h4.background{
+section#mobile-grid-view h4.background{
   background:url('../img/background.png') no-repeat;
 
 }
