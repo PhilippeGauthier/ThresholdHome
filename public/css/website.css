@@ -120,6 +120,7 @@ a.btn {
   background:url('../img/threshold-logo.gif') no-repeat;
   color:#595959;
   display:block;
+  letter-spacing: -1px;
   font-family: 'blenderbold';
   height:58px;
   margin:0;
@@ -143,7 +144,8 @@ a.btn {
   margin-left:160px;
 }
 .navbar .nav > li > a {
-  color: #555;
+  font-family: "Chalet-LondonNineteenSixty";
+  color: #404040;
   margin-right: 50px;
   padding: 0;
 }
@@ -153,7 +155,7 @@ a.btn {
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
   border-bottom: 2px solid #FB651D;
   background-color: transparent;
-  color: #555;
+  color: #404040;
   padding-bottom:4px;
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
@@ -165,12 +167,14 @@ a.btn {
 }
 
 #sign-in {
-  background:#5ba0d0;
+  font-family: "Chalet-LondonNineteenSixty";
+  background:#1a81cb;
   width:auto;
   padding-top:6px;
 }
 
 footer {
+  font-family: "Chalet-LondonNineteenSixty";
   background-color: #0D2F37;
   padding: 30px 0 10px;
 }
@@ -392,12 +396,14 @@ section.hero-wires .hero .btn-large {
 }
 
 section.hero-wires .video-bar {
+  opacity: 1;
   background:#70787B;
   border-top:1px solid #263E44;
   padding:20px 0;
 }
 
 section.hero-wires .video-bar #toggle-video {
+	opacity: 1;
   background:url('../img/play_button.png') no-repeat bottom center;
   color:#FFF;
   display:block;
@@ -508,6 +514,8 @@ section#get-started .download-link {
   margin-bottom:0;
 }
 section#get-started a.btn.small {
+  font-family: 'Chalet-LondonNineteenSixty';
+  color: #4d4d4d;	
   padding-top:6px;
   margin-top:5px;
   width: auto;
@@ -701,7 +709,7 @@ section#chatter #chat3 {
 section.hero-mobile {
   background-color:#404040;
   margin:100px 0 160px 0;
-  padding: 50px 0 35px;
+  padding: 47px 0 78px;
   position: relative;
   color: #FFF;
   text-align: left;
