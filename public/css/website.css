@@ -1104,7 +1104,7 @@ body.about-us {
 .profile { margin-bottom:50px; }
 .profile.last { margin-bottom: 0; }
 .profile-pic { width:122px; height:122px; }
-.profile-title { margin:10px 0; }
+.profile-title { font-family:'Chalet-LondonNineteenSixty'; letter-spacing:1px; margin:10px 0; }
 .linkedin { margin-left:40px; }
 .linkedin img { margin-top:-3px; }
 
