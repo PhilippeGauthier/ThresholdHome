@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://thresholdcm.com/</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thresholdcm.com/mobile.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thresholdcm.com/pricing.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thresholdcm.com/about.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thresholdcm.com/tos.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thresholdcm.com/privacy.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thresholdcm.com/copyright.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
