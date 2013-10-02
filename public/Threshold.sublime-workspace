@@ -1,0 +1,976 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gr",
+				"Gray"
+			],
+			[
+				"border-b",
+				"border-bottom-width"
+			],
+			[
+				"backc",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"feature",
+				"featureGray"
+			],
+			[
+				"bp",
+				"background-position"
+			],
+			[
+				"tetx",
+				"text-align"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"d",
+				"d-i	display: inline;"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"po",
+				"pos-a	position: absolute;"
+			],
+			[
+				"fea",
+				"featureGray"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"border-bott",
+				"border-bottom"
+			],
+			[
+				"light",
+				"lightGray"
+			],
+			[
+				"border",
+				"borderGray"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"dark",
+				"darkGray"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"fos",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sass/custom1.scss",
+			"settings":
+			{
+				"buffer_size": 44680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 132 files for \"upsell-icons\"\n\n/Library/WebServer/Documents/PG/Threshold_SASS/commercial.html:\n  169  </div>\n  170  \n  171: <section class=\"upsell-icons\">\n  172  <div class=\"container\">\n  173      <div class=\"row\">\n\n/Library/WebServer/Documents/PG/Threshold_SASS/index.html:\n  166  \n  167  \n  168: <section class=\"upsell-icons\">\n  169  <div class=\"container\">\n  170      <div class=\"row\">\n\n/Library/WebServer/Documents/PG/Threshold_SASS/photographers.html:\n  168  </div>\n  169  \n  170: <section class=\"upsell-icons\">\n  171  <div class=\"container\">\n  172      <div class=\"row\">\n\n/Library/WebServer/Documents/PG/Threshold_SASS/residential.html:\n  162  </section>\n  163  \n  164: <section class=\"upsell-icons\">\n  165  <div class=\"container\">\n  166      <div class=\"row\">\n\n/Library/WebServer/Documents/PG/Threshold_SASS/.sass-cache/168cb40b9edef4a9b53f08c4305b9ee8b7a40356/custom1.scssc:\n    <binary>\n\n/Library/WebServer/Documents/PG/Threshold_SASS/.sass-cache/e0b3419a5eae7eabb554f97426e987d8fae4a82c/custom1.scssc:\n    <binary>\n\n/Library/WebServer/Documents/PG/Threshold_SASS/css/custom1.css:\n 3019  \n 3020  /* line 2366, ../sass/custom1.scss */\n 3021: .upsell-icons {\n 3022    display: block;\n 3023    position: relative;\n ....\n 3026  }\n 3027  /* line 2372, ../sass/custom1.scss */\n 3028: .upsell-icons h3, .upsell-icons p {\n 3029    display: inline-block;\n 3030    position: relative;\n 3031  }\n 3032  /* line 2376, ../sass/custom1.scss */\n 3033: .upsell-icons h3 {\n 3034    margin-top: 5px;\n 3035  }\n 3036  /* line 2379, ../sass/custom1.scss */\n 3037: .upsell-icons p {\n 3038    margin-top: 10px;\n 3039    margin-bottom: 50px;\n 3040  }\n 3041  /* line 2384, ../sass/custom1.scss */\n 3042: .upsell-icons .sprite {\n 3043    margin: 0 auto;\n 3044    max-width: 128px;\n ....\n 3046  @media (max-width: 992px) {\n 3047    /* line 2366, ../sass/custom1.scss */\n 3048:   .upsell-icons {\n 3049      padding: 0;\n 3050      text-align: center;\n 3051    }\n 3052    /* line 2392, ../sass/custom1.scss */\n 3053:   .upsell-icons p, .upsell-icons h3 {\n 3054      margin: 10px auto;\n 3055    }\n 3056    /* line 2396, ../sass/custom1.scss */\n 3057:   .upsell-icons .section2, .upsell-icons .section3, .upsell-icons .section4 {\n 3058      padding-top: 50px;\n 3059    }\n 3060    /* line 2399, ../sass/custom1.scss */\n 3061:   .upsell-icons .sprite {\n 3062      width: 50%;\n 3063      padding-top: 20%;\n ....\n 3066  @media (max-width: 767px) {\n 3067    /* line 2366, ../sass/custom1.scss */\n 3068:   .upsell-icons {\n 3069      padding: 0;\n 3070      text-align: center;\n 3071    }\n 3072    /* line 2406, ../sass/custom1.scss */\n 3073:   .upsell-icons p, .upsell-icons h3, .upsell-icons .sprites {\n 3074      margin: 10px auto;\n 3075    }\n 3076    /* line 2410, ../sass/custom1.scss */\n 3077:   .upsell-icons .section2, .upsell-icons .section3, .upsell-icons .section4 {\n 3078      padding-top: 30px;\n 3079    }\n 3080    /* line 2413, ../sass/custom1.scss */\n 3081:   .upsell-icons .sprite {\n 3082      width: 50%;\n 3083      padding-top: 30%;\n ....\n 3086  @media (max-width: 479px) {\n 3087    /* line 2366, ../sass/custom1.scss */\n 3088:   .upsell-icons {\n 3089      margin-bottom: 10px;\n 3090      padding: 0;\n ....\n 3092    }\n 3093    /* line 2421, ../sass/custom1.scss */\n 3094:   .upsell-icons p, .upsell-icons h3, .upsell-icons .sprites {\n 3095      margin: 10px auto;\n 3096    }\n 3097    /* line 2425, ../sass/custom1.scss */\n 3098:   .upsell-icons .section2, .upsell-icons .section3, .upsell-icons .section4 {\n 3099      padding-top: 30px;\n 3100    }\n 3101    /* line 2428, ../sass/custom1.scss */\n 3102:   .upsell-icons .sprite {\n 3103      width: 50%;\n 3104      padding-top: 30%;\n\n/Library/WebServer/Documents/PG/Threshold_SASS/sass/custom1.scss:\n 2364  \n 2365  \n 2366: .upsell-icons {\n 2367  	display: block;\n 2368  	position: relative;\n\n40 matches across 8 files\n",
+			"settings":
+			{
+				"buffer_size": 3860,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "css/custom1.css",
+			"settings":
+			{
+				"buffer_size": 81995,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 98712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11547,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "commercial.html",
+			"settings":
+			{
+				"buffer_size": 11490,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <title>Threshold - Construction Photo Management</title>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\" content=\"The leading construction photo documentation platform. Take, organize, and share your own construction progress photos.\">\n    <meta name=\"keywords\" content=\"Construction Progress Photos,  Construction Photos, Construction Photo Management, Threshold, Thresholdcm, Construction Management Photos, Progress Photos, Construction Progress Photos, 383 Studio\">\n    <meta name=\"apple-itunes-app\" content=\"app-id=557749343\">\n\n    <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n    <link rel=\"stylesheet\" href=\"css/magnific-popup.css\">\n    <link rel=\"stylesheet\" href=\"css/custom1.css\">\n\n    <script type=\"text/javascript\" src=\"//use.typekit.net/hot7rwj.js\"></script>\n    <script type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\n\n\n</head>\n<body>\n\n    <nav class=\"navbar navbar-fixed-top\" role=\"navigation\">\n        <div class=\"container\">\n          <div class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-ex1-collapse\">\n              <span class=\"sr-only\">Toggle navigation</span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand logo\" href=\"index.html\" data-icon=\"&#xe01b;\" aria-hidden=\"true\"></a>\n      </div>\n      \n      <div class=\"collapse navbar-collapse navbar-ex1-collapse\">\n       <ul class=\"nav navbar-nav navbar-left\">\n\n        <li><a href=\"features.html\" class=\"trackable\">Features</a></li>\n        <li class=\"dropdown\">\n            <a href=\"#\" class=\"dropdown-toggle trackable\" data-toggle=\"dropdown\">Applications<b class=\"caret\"></b></a>\n            <ul class=\"dropdown-menu\">\n              <li><a href=\"commercial.html\" class=\"trackable\">Commercial</a></li>\n              <li><a href=\"residential.html\" class=\"trackable\">Residential</a></li>\n              <li><a href=\"photographers.html\" class=\"trackable\">Photographers</a></li>\n          </ul>\n      </li>\n\n      <li class=\"dropdown\">\n        <a href=\"#\" class=\"dropdown-toggle trackable\" data-toggle=\"dropdown\">Resources<b class=\"caret\"></b></a>\n        <ul class=\"dropdown-menu\">\n          <li><a href=\"pricing.html\" class=\"trackable\">Pricing</a></li>\n          <li><a href=\"press.thresholdcm.com\" class=\"trackable\">Press</a></li>\n          <li><a href=\"blog.thresholdcm.com\" class=\"trackable\">Blog</a></li>\n      </ul>\n  </li>\n</ul>\n<ul class=\"nav navbar-nav navbar-right\">\n    <li id=\"navGetStarted\">\n        <button type=\"button\" class=\"btn blue navbar-btn\"><a href=\"https://app.thresholdcm.com/account/sign_up\" class=\"trackable\">Get Started</a></button>\n    </li>\n    <li><a href=\"https://app.thresholdcm.com/account/sign_in\" class=\"trackable\">Log In</a></li>\n</ul>\n</div>\n</div>\n</nav>\n    \n<header class=\"hero-residential\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <span id=\"upsellText\"> \n                <div class=\"col-lg-12 col-sm-12 col-12\">      \n                    <h1><span>CONTRACTORS &amp; CLIENTS IN</span><br><span class=\"huge\">SYNC</span></h1>\n                    <a href=\"https://app.thresholdcm.com/account/sign_up class=\"trackable\"\"><button type=\"button\" class=\"blue btnSolid\">get started</button></a>\n                    <a href=\"http://www.youtube.com/watch?v=GLoJLV10_TU\" class=\"popup-youtube\"><button type=\"button\" class=\"whiteHallow btnHallow\">watch video</button></a>\n                    <h4>FREE STARTER PROJECT. NO CREDIT CARD REQUIRED.</h4>\n                </div>\n            </span>\n        </div>\n    </div>\n</header>\n\n\n<section class=\"innerNav upper\">\n   <div class=\"container\">\n       <div class=\"row\">\n        <ul>\n            <li>\n                <a href=\"index.html\" class=\"trackable\"><span data-icon=\"&#xe001;\" aria-hidden=\"true\"></span><br>Overview</a>\n            </li>\n            <li>\n                <a href=\"commercial.html\" class=\"trackable\"><span data-icon=\"&#xf0f7;\" aria-hidden=\"true\"></span><br>Commercial</a>\n            </li>\n            <li>\n               <a href=\"residential.html\" class=\"active trackable\"><span data-icon=\"&#xe011;\" aria-hidden=\"true\"></span><br>Residential</a>\n           </li>\n           <li>\n            <a href=\"photographers.html\" class=\"trackable\"><span data-icon=\"&#xe00f;\" aria-hidden=\"true\"></span><br>Photographers</a>\n        </li>\n    </ul>\n</div>\n</div>\n</section>\n\n<section class=\"features-section\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-8 col-md-8\">\n            <div class=\"feature-content-container landing\">\n\n            <div class=\"phone-wrapper\">\n                <div class=\"content-phone\">\n                    <div class=\"iphone-power-button\"></div>\n                    <div class=\"iphone-camera\"></div>\n                    <div class=\"iphone-speaker\"></div>\n                    <div class=\"iphone-silent\"></div>\n                    <div class=\"iphone-volume one\"></div>\n                    <div class=\"iphone-volume two\"></div>\n                    <div class=\"iphone-home-square\"></div>\n                    <div class=\"iphone-home\"></div>\n                    <div class=\"iphone-external\">\n                    <div class=\"iphone-internal\">\n                    <div class=\"phone-content\">\n                        <img src=\"img/residential-phone.jpg\" alt=\"\">\n                    </div>\n                    </div>\n                    </div>\n                      \n            </div>\n            </div>\n            <div class=\"browser-wrapper\">\n            <div class=\"content-browser\">\n            <div class=\"browser-wrapper\">\n                <div class=\"browser-bar\">\n                    <div class=\"browser-button\"></div>\n                    <div class=\"browser-button\"></div>\n                    <div class=\"browser-button\"></div>\n                </div>\n\n                <div class=\"browser-window landing\">\n                    <div class=\"browser-content\">\n                        <img src=\"img/residential-screen.jpg\" alt=\"...\">\n                    </div>\n                </div>\n            </div>\n            </div>  \n            </div>\n            </div>\n            </div>\n            \n\n            <div class=\"col-lg-4 col-md-4\">\n           \n                <h2>Keep Your Clients Happy</h2>\n                    <p>Theshold gives you a vital tool to help maintain the contractor / client relationship. Keeping the lines of communication open ensures a trustworthy relationship from start to finish.</p>\n                    <a href=\"features.html\" class=\"features\"><button type=\"button\" class=\"darkGrayHallow btnHallow trackable\">View Features</button></a> \n                    \n            </div>\n        \n        </div>\n    </div>\n</section>\n\n<section class=\"upsell-icons\">\n<div class=\"container\">\n    <div class=\"row\">\n\n    <div class=\"section1\">\n        <div class=\"col-md-2\">         \n            <div class=\"sprite-dashboard sprite\"></div>\n        </div>\n        <div class=\"col-md-4\">\n            <h3>Stay up to Speed</h3>\n            <p>You don't have time to be at the jobsite 24 hours a day. Things happen and you need to stay in the loop. When your team uses Threshold you can stay up to speed remotely with ease.</p>\n        </div>\n    </div>\n\n    <div class=\"section2\">\n        <div class=\"col-md-2\">         \n            <div class=\"sprite-home sprite\"></div>\n        </div>\n        <div class=\"col-md-4\">\n            <h3>Piece of Mind</h3>\n            <p>Your clients will love knowing that all of their project's photos will be online and available to them after you're gone. It's a great selling tool for you and for them should they ever sell their home.</p>\n        </div>\n    </div>\n\n    <div class=\"section3\">\n        <div class=\"col-md-2\">         \n            <div class=\"sprite-gift sprite\"></div>\n        </div>\n        <div class=\"col-md-4\">\n             <h3>Give the Gift of Access.</h3>\n            <p>Jobsite visits are important but time-consuming. Treat yourself and your clients to remote access. Your clients will need less jobsite visits and you'll look like a hero.</p>\n        </div>\n    </div>\n\n    <div class=\"section4\">\n        <div class=\"col-md-2\">         \n            <div class=\"sprite-trophy sprite\"></div>\n        </div>\n        <div class=\"col-md-4\">\n             <h3>Show Off Your Work</h3>\n            <p>Your reputation is only good as your last job. When you show prospective clients an organized and well-documented jobsite they're more likely to trust you and your work.</p>\n        </div>\n    </div>\n\n</section>\n\n<section class=\"innerNav lower\">\n   <div class=\"container\">\n       <div class=\"row\">\n        <ul>\n            <li>\n                <a href=\"index.html\" class=\"trackable\"><span data-icon=\"&#xe001;\" aria-hidden=\"true\"></span><br>Overview</a>\n            </li>\n            <li>\n                <a href=\"commercial.html\" class=\"trackable\"><span data-icon=\"&#xf0f7;\" aria-hidden=\"true\"></span><br>Commercial</a>\n            </li>\n            <li>\n               <a href=\"residential.html\" class=\"active trackable\"><span data-icon=\"&#xe011;\" aria-hidden=\"true\"></span><br>Residential</a>\n           </li>\n           <li>\n            <a href=\"photographers.html\" class=\"trackable\"><span data-icon=\"&#xe00f;\" aria-hidden=\"true\"></span><br>Photographers</a>\n        </li>\n    </ul>\n</div>\n</div>\n</section>  \n\n<div class=\"features-upsell lower\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12\">\n                   <a href=\"https://app.thresholdcm.com/account/sign_up\" class=\"trackable\"><button type=\"button\" class=\"blue btnSolid\">get started</button></a>\n                    <a href=\"features.html\"><button type=\"button\" class=\"darkGrayHallow btnHallow trackable\">View Features</button></a> \n                    <h4>Try Threshold for free. No credit card required.</h4>\n            </div>\n        </div>\n    </div>\n</div>\n\n<section id=\"footer\" class=\"section2\">\n    <div class=\"col-lg-12\">\n        <a href=\"http://blog.thresholdcm.com\" class=\"trackable\">Blog</a>\n        <a href=\"http://press.thresholdcm.com\" class=\"trackable\">Press</a>\n        <a href=\"http://help.thresholdcm.com\" class=\"trackable\">Help</a>\n        <a href=\"https://twitter.com/Thresholdcm\" class=\"trackable\">Twitter</a>\n        <a href=\"https://www.facebook.com/Thresholdcm\" class=\"trackable\">Facebook</a>\n        <a href=\"http://www.linkedin.com/company/383-studio-inc-/m\" class=\"trackable\">LinkedIn</a>\n        <a href=\"mailto:info@thresholdcm.com\" class=\"trackable\">Contact</a>\n    </div>\n    <div class=\"col-lg-12\">\n        <p>Copywrite &copy; 2013 383 Studio, Inc.</p>\n    </div>\n</section>\n\n<script src=\"http://code.jquery.com/jquery.min.js\"></script>\n<script src=\"js/jquery.magnific-popup.min.js\"></script>\n<script src=\"js/bootstrap.min.js\"></script>\n<script src=\"js/analytics.js\"></script>\n\n<script>\n$(document).ready(function() {\n    $('.popup-youtube').magnificPopup({\n        // disableOn: 700,\n        type: 'iframe',\n        mainClass: 'mfp-fade',\n        removalDelay: 160,\n        preloader: false,\n\n        fixedContentPos: false\n    });\n});\n</script>\n\n</body>\n</html>\n\n",
+			"file": "residential.html",
+			"file_size": 11358,
+			"file_write_time": 130244721710000000,
+			"settings":
+			{
+				"buffer_size": 11428,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <title>Threshold - Construction Photo Management</title>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\" content=\"The leading construction photo documentation platform. Take, organize, and share your own construction progress photos.\">\n    <meta name=\"keywords\" content=\"Construction Progress Photos,  Construction Photos, Construction Photo Management, Threshold, Thresholdcm, Construction Management Photos, Progress Photos, Construction Progress Photos, 383 Studio\">\n    <meta name=\"apple-itunes-app\" content=\"app-id=557749343\">\n\n    <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n    <link rel=\"stylesheet\" href=\"css/magnific-popup.css\">\n    <link rel=\"stylesheet\" href=\"css/custom1.css\">\n\n    <script type=\"text/javascript\" src=\"//use.typekit.net/hot7rwj.js\"></script>\n    <script type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\n\n\n</head>\n<body>\n\n<nav class=\"navbar navbar-fixed-top\" role=\"navigation\">\n    <div class=\"container\">\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-ex1-collapse\">\n          <span class=\"sr-only\">Toggle navigation</span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand logo\" href=\"index.html\" data-icon=\"&#xe01b;\" aria-hidden=\"true\"></a>\n    </div>\n    \n    <div class=\"collapse navbar-collapse navbar-ex1-collapse\">\n     <ul class=\"nav navbar-nav navbar-left\">\n\n 	<li><a href=\"features.html\" class=\"trackable active\">Features</a></li>\n    <li class=\"dropdown\">\n    <a href=\"#\" class=\"dropdown-toggle trackable\" data-toggle=\"dropdown\">Applications<b class=\"caret\"></b></a>\n    <ul class=\"dropdown-menu\">\n      <li><a href=\"commercial.html\" class=\"trackable\">Commercial</a></li>\n      <li><a href=\"residential.html\" class=\"trackable\">Residential</a></li>\n      <li><a href=\"photographers.html\" class=\"trackable\">Photographers</a></li>\n    </ul>\n    </li>\n\n    <li class=\"dropdown\">\n    <a href=\"#\" class=\"dropdown-toggle trackable\" data-toggle=\"dropdown\">Resources<b class=\"caret\"></b></a>\n    <ul class=\"dropdown-menu\">\n      <li><a href=\"pricing.html\" class=\"trackable\">Pricing</a></li>\n      <li><a href=\"press.thresholdcm.com\" class=\"trackable\">Press</a></li>\n      <li><a href=\"blog.thresholdcm.com\" class=\"trackable\">Blog</a></li>\n    </ul>\n    </li>\n    </ul>\n    <ul class=\"nav navbar-nav navbar-right\">\n    <li id=\"navGetStarted\">\n        <button type=\"button\" class=\"btn blue navbar-btn\"><a href=\"https://app.thresholdcm.com/account/sign_up\" class=\"trackable\">Get Started</a></button>\n    </li>\n    <li><a href=\"https://app.thresholdcm.com/account/sign_in\" class=\"trackable\">Log In</a></li>\n    </ul>\n    </div>\n    </div>\n</nav>\n    \n    \n<header class=\"hero-features\">\n	<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-lg-12\">\n\n        <div class=\"macbook-hero\">\n        \n        <div class=\"macbook-wrapper\">\n        	<div class=\"macbook-content\">\n        	<div class=\"macbook-screen-content\">\n        	<div class=\"macbook-screen-content-text\">\n			<h1>Threshold<br><span class=\"huge\">FEATURES</span></h1>\n            	<img src=\"img/macbook-screen.jpg\" alt=\"\">\n            </div>\n            </div>\n        		<div class=\"macbook-bezel\"></div>\n        		<div class=\"macbook-frame-top\"></div>\n        		<div class=\"macbook-frame-bottom\"></div>  			\n            </div>\n\n        	\n        </div>\n        </div>\n        </div>	\n    </div>\n    </div>\n</header>\n\n<div class=\"features-page-wrapper\">\n\n<section class=\"features-section features-page browser\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-lg-8 col-md-7 features\">\n			<div class=\"feature-content-container\">\n			         <div class=\"browser-wrapper\">\n            <div class=\"content-browser\">\n            <div class=\"browser-wrapper\">\n                <div class=\"browser-bar\">\n                    <div class=\"browser-button\"></div>\n                    <div class=\"browser-button\"></div>\n                    <div class=\"browser-button\"></div>\n                </div>\n\n                <div class=\"browser-window landing\">\n                    <div class=\"browser-content\">\n\n						<div id=\"carousel-example-generic\" class=\"carousel slide auto\">\n\n							<ol class=\"carousel-indicators\">\n								<li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li>\n								<li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li>\n								<li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li>\n								<li data-target=\"#carousel-example-generic\" data-slide-to=\"3\"></li>\n							</ol> \n\n\n							<div class=\"carousel-inner\">\n								<div class=\"item active\">\n									<img src=\"img/news-feed.jpg\" alt=\"...\">\n								</div>\n								<div class=\"item\">\n									<img src=\"img/dynamic.jpg\" alt=\"...\">\n								</div>\n								<div class=\"item\">\n									<img src=\"img/plan-management.jpg\" alt=\"...\">\n								</div>\n								<div class=\"item\">\n									<img src=\"img/gallery.jpg\" alt=\"...\">\n								</div>\n							</div>\n\n							<a class=\"left carousel-control\" href=\"#carousel-example-generic\" data-slide=\"prev\">\n								<span class=\"icon-prev\"></span>\n							</a>\n							<a class=\"right carousel-control\" href=\"#carousel-example-generic\" data-slide=\"next\">\n								<span class=\"icon-next\"></span>\n							</a>\n						</div>\n					</div>\n				</div>\n			</div>\n			</div>	\n			</div>\n			</div>\n			</div>\n\n			<div class=\"col-lg-4 col-md-5\">\n						<h2>Powerful Web Application</h2>\n						<a href=\"#\"><h3 data-target=\"#carousel-example-generic\" data-slide-to=\"0\">News Feed</h3></a>\n						<p class=\"text-pg-muted\">A great way to get up to speed with your project at a glance.</p>\n						<a href=\"#\"><h3 data-target=\"#carousel-example-generic\" data-slide-to=\"1\">Dynamic View</h3></a>\n						<p class=\"text-pg-muted\">Drag and drop your photos right on top of your plans. View your photos by project, floor, and room.</p>\n						<a href=\"#\"><h3 data-target=\"#carousel-example-generic\" data-slide-to=\"2\">Plan Management</h3></a>\n						<p class=\"text-pg-muted\">Manage your plans with </p>\n						<a href=\"#\"><h3 data-target=\"#carousel-example-generic\" data-slide-to=\"3\">Gallery View</h3></a>\n						<p class=\"text-pg-muted\">A great way to get up to speed with your project at a glance.</p>\n			</div>\n		</div>\n	</div>\n</section>\n\n<section class=\"features-section features-page iPhone\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-lg-3 col-lg-push-9 col-md-3 col-md-push-9 col-sm-5 col-sm-push-7 col-xs-offset-3 col-xs-12\">\n			<div class=\"feature-content-container\">\n			<div class=\"content-phone\">\n				<div class=\"iphone-power-button\"></div>\n				<div class=\"iphone-camera\"></div>\n				<div class=\"iphone-speaker\"></div>\n				<div class=\"iphone-silent\"></div>\n				<div class=\"iphone-volume one\"></div>\n				<div class=\"iphone-volume two\"></div>\n				<div class=\"iphone-home-square\"></div>\n				<div class=\"iphone-home\"></div>\n				<div class=\"iphone-external\">\n					<div class=\"iphone-internal\">\n						<div class=\"phone-content\">\n							<img src=\"img/iphone-tour.jpg\" alt=\"\">\n						</div>\n					</div>\n				</div>\n						\n			</div>\n			</div>\n\n			</div>	\n			<div class=\"col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-6 col-sm-pull-5 col-xs-12\">\n				<h2>Built for Mobile</h2>\n					<p class=\"text-pg-muted\">Threshold's mobile app integrates directly with the web app. Content uploaded from the jobsite is available immediately to the entire project team.</p>\n					<p class=\"text-pg-muted\">By using our mobile app you can ensure every member of your team is working off the same complete photo record of your project.</p>\n					<a href=\"features.html\"><button type=\"button\" class=\"darkGrayHallow btnHallow trackable\">Download App</button></a>\n				\n			</div>\n			</div> \n	</div>\n</section>\n\n\n\n<section class=\"features-section features-page iPad\">\n	<div class=\"container\">\n		<div class=\"row\">\n\n			<div class=\"col-lg-6 col-md-6 col-sm-6\">\n			<div class=\"feature-content-container\">\n					<div class=\"content-ipad\">\n						<div class=\"ipad-camera\"></div>\n						<div class=\"ipad-home-square\"></div>\n						<div class=\"ipad-home\"></div>\n						<div class=\"ipad-external\">\n							<div class=\"ipad-internal\">\n								<div class=\"ipad-content\">\n									<img src=\"img/ipad-content.jpg\" alt=\"\">\n								</div>\n							</div>\n						</div>\n					</div>\n			</div>\n			</div>\n			\n			<div class=\"col-lg-3 col-lg-push-0 col-md-5 col-sm-5 col-sm-push-1 features-text\">\n			\n			\n				<h2>iPad Optimized</h2>\n					<p class=\"text-pg-muted\">Threshold is optimized to work great whether you're on a web browser, iPhone, or iPad.</p>\n					<p class=\"text-pg-muted\">Enjoy full resolution photos in an instant and work smarter and faster.</p\n			</div>	   \n		\n		</div>\n</section>\n\n<section class=\"features-section features-page iPhone\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-lg-3 col-lg-push-9 col-md-3 col-md-push-9 col-sm-5 col-sm-push-7 col-xs-offset-3 col-xs-12\">\n			<div class=\"feature-content-container\">\n			<div class=\"content-phone\">\n				<div class=\"iphone-power-button\"></div>\n				<div class=\"iphone-camera\"></div>\n				<div class=\"iphone-speaker\"></div>\n				<div class=\"iphone-silent\"></div>\n				<div class=\"iphone-volume one\"></div>\n				<div class=\"iphone-volume two\"></div>\n				<div class=\"iphone-home-square\"></div>\n				<div class=\"iphone-home\"></div>\n				<div class=\"iphone-external\">\n					<div class=\"iphone-internal\">\n						<div class=\"phone-content\">\n							<img src=\"img/iphone-comment.jpg\" alt=\"\">\n						</div>\n					</div>\n				</div>\n						\n			</div>\n			</div>\n\n			</div>	\n			<div class=\"col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-6 col-sm-pull-5 col-xs-12\">\n				<h2>Communicate With Ease</h2>\n					<p class=\"text-pg-muted\">With Threshold you can collaborate in real time. You can add comments before you upload or start a conversation on photos someone else uploaded.The comments span both web and mobile apps so everyone can join in regardless of their location.</p>\n					<p class=\"text-pg-muted\">And by embracing photos comments you can reduce site visits, emails, and text messages. Your clients can be added to your project and get up to speed immediately without needing to ask you for photos.</p>\n				\n			</div>\n			</div>\n			</div>\n</section>\n\n<section class=\"features-section features-page iPhone\">\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-md-3 col-sm-5 col-xs-12\">\n			<div class=\"feature-content-container\">\n			<div class=\"content-phone\">\n				<div class=\"iphone-power-button\"></div>\n				<div class=\"iphone-camera\"></div>\n				<div class=\"iphone-speaker\"></div>\n				<div class=\"iphone-silent\"></div>\n				<div class=\"iphone-volume one\"></div>\n				<div class=\"iphone-volume two\"></div>\n				<div class=\"iphone-home-square\"></div>\n				<div class=\"iphone-home\"></div>\n				<div class=\"iphone-external\">\n					<div class=\"iphone-internal\">\n						<div class=\"phone-content\">\n							<img src=\"img/iphone-upload.jpg\" alt=\"\">\n						</div>\n					</div>\n				</div>\n						\n			</div>\n			</div>\n\n			</div>	\n			<div class=\"col-md-4  col-sm-6 col-xs-12\">\n				<h2>Contextual Uploading</h2>\n					<p class=\"text-pg-muted\">Threshold's mobile app integrates directly with the web app. Content uploaded from the jobsite is available immediately to the entire project team.</p>\n					<p class=\"text-pg-muted\">By using our mobile app you can ensure every member of your team is working off the same complete photo record of your project.</p>				\n			</div>\n			</div> \n	</div>\n</section>\n\n</div>\n\n<div class=\"features-upsell lower\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12\">\n                   <a href=\"https://app.thresholdcm.com/account/sign_up\" class=\"trackable\"><button type=\"button\" class=\"blue btnSolid\">get started</button></a>\n                    <a href=\"pricing.html\"><button type=\"button\" class=\"darkGrayHallow btnHallow trackable\">View Pricing</button></a> \n                    <h4>Try Threshold for free. No credit card required.</h4>\n            </div>\n        </div>\n    </div>\n</div>\n\n\n<section id=\"footer\" class=\"section2\">\n\n\n    <div class=\"col-lg-12\">\n        <a href=\"http://blog.thresholdcm.com\" class=\"trackable\">Blog</a>\n        <a href=\"http://press.thresholdcm.com\" class=\"trackable\">Press</a>\n        <a href=\"http://help.thresholdcm.com\" class=\"trackable\">Help</a>\n        <a href=\"https://twitter.com/Thresholdcm\" class=\"trackable\">Twitter</a>\n        <a href=\"https://www.facebook.com/Thresholdcm\" class=\"trackable\">Facebook</a>\n        <a href=\"http://www.linkedin.com/company/383-studio-inc-/m\" class=\"trackable\">LinkedIn</a>\n        <a href=\"mailto:info@thresholdcm.com\" class=\"trackable\">Contact</a>\n    </div>\n    <div class=\"col-lg-12\">\n        <p>Copywrite &copy; 2013 383 Studio, Inc.</p>\n    </div>\n\n</section>\n\n<script src=\"http://code.jquery.com/jquery.min.js\"></script>\n<script src=\"js/jquery.magnific-popup.min.js\"></script>\n<script src=\"js/bootstrap.min.js\"></script>\n<script src=\"js/analytics.js\"></script>\n\n<script>\n$(document).ready(function() {\n    $('.popup-youtube').magnificPopup({\n        // disableOn: 700,\n        type: 'iframe',\n        mainClass: 'mfp-fade',\n        removalDelay: 160,\n        preloader: false,\n\n        fixedContentPos: false\n    });\n});\n</script>\n\n</body>\n</html>\n\n",
+			"file": "features.html",
+			"file_size": 13568,
+			"file_write_time": 130244569320000000,
+			"settings":
+			{
+				"buffer_size": 13568,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "photographers.html",
+			"settings":
+			{
+				"buffer_size": 11358,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pricing.html",
+			"settings":
+			{
+				"buffer_size": 10337,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"selected_items":
+		[
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'https://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/PG/Threshold_SASS/Threshold.sublime-workspace",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/Threshold.sublime-project",
+		"/Users/philippegauthier/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/css/magnific-popup.css",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/css/lightview.css",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/css/custom.css",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/js/analytics.js",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/index1.html",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/js/navbar2.js",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/css/screen.css",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/js/custom.js",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/js/lightview.js",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/header.html",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/photography.html",
+		"/Library/WebServer/Documents/PG/Threshold_SASS/index copy.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"upsell-icons",
+			"Searching",
+			"upsell-icons",
+			"browser",
+			"333",
+			"3333333",
+			"features-page",
+			"30px",
+			"sprite-cam",
+			"3",
+			"_2x",
+			"camera",
+			"hero-c",
+			"1200px",
+			"navbar",
+			"features",
+			"hero-com",
+			"hero-res",
+			"hero-pricing",
+			"1.15em",
+			"h4",
+			"header",
+			"hero-re",
+			"hero-com",
+			"perspec",
+			"header {",
+			"padding-left: 3",
+			"tools",
+			"skin",
+			"blank",
+			"background-image: url(\"skins/light/sprite.png\");",
+			"sprite",
+			"background: url('skins/light/sprite.png');",
+			"background: url('skins/blank.gif');",
+			"  background: url('skins/blank.gif');",
+			"scroll",
+			"overflow",
+			"sprite.png",
+			"sprite",
+			"font-weight: 100",
+			"muted",
+			"2em",
+			"download app",
+			"navbar",
+			"hero-landing",
+			"landing-header",
+			"23px",
+			"pricing",
+			"100px 0",
+			"3",
+			"hero-resi",
+			"residential-header",
+			"features-page",
+			"font-size",
+			"exit-gr",
+			"font-size",
+			"24px",
+			"font-size",
+			"-wrapper",
+			"80px",
+			"features-page",
+			"wrapper",
+			"hero-landing",
+			"features-section",
+			"features-page",
+			"hero-features",
+			"12px",
+			"15px",
+			"button",
+			"perspective",
+			"background",
+			"jquery",
+			"landing-header",
+			"5px",
+			"90%",
+			"button",
+			"h2, h3",
+			"padding-left: 3%",
+			"5",
+			"6",
+			"content-phone",
+			"content-iphone",
+			"0 auto",
+			"features-page",
+			"margin-top: 100px",
+			"993",
+			"1200px",
+			"hero-features",
+			"img",
+			"1200",
+			"1200px",
+			"100px",
+			"ipad",
+			"features-page",
+			"features-up",
+			"features-page",
+			"hero-resid",
+			"residen",
+			"whiteHallow",
+			"features",
+			"border-top",
+			"border-bottom",
+			"h3",
+			"h32",
+			"50px",
+			"50%",
+			"features-page",
+			"50px 0",
+			"caret",
+			"<p",
+			"ipad",
+			"whiteHallow",
+			"btnHallow",
+			"8%",
+			"5",
+			"4",
+			"iphone",
+			"phone",
+			"iphone",
+			"muted",
+			"<p",
+			"landing",
+			"#fff",
+			"gradient",
+			"h4",
+			" class=\"text-success\"",
+			"iphone",
+			"features-page"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sass/custom1.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39185,
+								39156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 1.0,
+						"translation.y": 31247.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3860,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										149,
+										161
+									],
+									[
+										323,
+										335
+									],
+									[
+										511,
+										523
+									],
+									[
+										701,
+										713
+									],
+									[
+										1160,
+										1172
+									],
+									[
+										1297,
+										1309
+									],
+									[
+										1315,
+										1327
+									],
+									[
+										1455,
+										1467
+									],
+									[
+										1561,
+										1573
+									],
+									[
+										1697,
+										1709
+									],
+									[
+										1870,
+										1882
+									],
+									[
+										2007,
+										2019
+									],
+									[
+										2024,
+										2036
+									],
+									[
+										2140,
+										2152
+									],
+									[
+										2165,
+										2177
+									],
+									[
+										2190,
+										2202
+									],
+									[
+										2313,
+										2325
+									],
+									[
+										2486,
+										2498
+									],
+									[
+										2623,
+										2635
+									],
+									[
+										2640,
+										2652
+									],
+									[
+										2658,
+										2670
+									],
+									[
+										2780,
+										2792
+									],
+									[
+										2805,
+										2817
+									],
+									[
+										2830,
+										2842
+									],
+									[
+										2953,
+										2965
+									],
+									[
+										3126,
+										3138
+									],
+									[
+										3270,
+										3282
+									],
+									[
+										3287,
+										3299
+									],
+									[
+										3305,
+										3317
+									],
+									[
+										3427,
+										3439
+									],
+									[
+										3452,
+										3464
+									],
+									[
+										3477,
+										3489
+									],
+									[
+										3600,
+										3612
+									],
+									[
+										3766,
+										3778
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								149,
+								161
+							],
+							[
+								323,
+								335
+							],
+							[
+								511,
+								523
+							],
+							[
+								701,
+								713
+							],
+							[
+								1160,
+								1172
+							],
+							[
+								1297,
+								1309
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/custom1.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13034,
+								13034
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 27780.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64864,
+								64872
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51608.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5455,
+								5417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1513.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "commercial.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7049,
+								7049
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2069.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "residential.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1075,
+								1075
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "features.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3827,
+								3827
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1242.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "photographers.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10120,
+								10120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3776.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "pricing.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8239,
+								8239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2606.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.463374137473,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "threshold.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Library/WebServer/Documents/PG/Threshold_SASS/threshold.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,121 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-list, .icon-Threshold_logo, .icon-map, .icon-key, .icon-building, .icon-camera, .icon-user, .icon-bubble, .icon-stack, .icon-paperplane, .icon-lock, .icon-bulb, .icon-pen, .icon-location, .icon-lab, .icon-banknote, .icon-params, .icon-note, .icon-photo, .icon-mail, .icon-clip, .icon-calendar, .icon-world, .icon-cloud, .icon-settings, .icon-tag, .icon-diamond {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-list:before {
+	content: "\e025";
+}
+.icon-Threshold_logo:before {
+	content: "\e01b";
+}
+.icon-map:before {
+	content: "\e001";
+}
+.icon-key:before {
+	content: "\e011";
+}
+.icon-building:before {
+	content: "\f0f7";
+}
+.icon-camera:before {
+	content: "\e00f";
+}
+.icon-user:before {
+	content: "\e000";
+}
+.icon-bubble:before {
+	content: "\e00c";
+}
+.icon-stack:before {
+	content: "\e010";
+}
+.icon-paperplane:before {
+	content: "\e012";
+}
+.icon-lock:before {
+	content: "\e015";
+}
+.icon-bulb:before {
+	content: "\e016";
+}
+.icon-pen:before {
+	content: "\e017";
+}
+.icon-location:before {
+	content: "\e019";
+}
+.icon-lab:before {
+	content: "\e01c";
+}
+.icon-banknote:before {
+	content: "\e01d";
+}
+.icon-params:before {
+	content: "\e01e";
+}
+.icon-note:before {
+	content: "\e01f";
+}
+.icon-photo:before {
+	content: "\e020";
+}
+.icon-mail:before {
+	content: "\e021";
+}
+.icon-clip:before {
+	content: "\e026";
+}
+.icon-calendar:before {
+	content: "\e027";
+}
+.icon-world:before {
+	content: "\e028";
+}
+.icon-cloud:before {
+	content: "\e003";
+}
+.icon-settings:before {
+	content: "\e029";
+}
+.icon-tag:before {
+	content: "\e02a";
+}
+.icon-diamond:before {
+	content: "\e02f";
+}
