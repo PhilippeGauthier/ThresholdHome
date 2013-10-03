@@ -312,9 +312,10 @@ $lightGray: #f7f7f7;
 $borderGray: #ededed;
 $white: #fff;
 $Gray: #c1c1c1;
-$midGray: #808080;
+$midGray: #666666;
 $phoneGray: #b3b3b3;
 $blue: #37a7cc;
+$backgroundBlue: #f2f6f7;
 $orange: #ff9900;
 $hallow: rgba(255,255,255,0.0);
 $featureGray: #e0e0e0;
@@ -439,6 +440,10 @@ body.modal-open,
   margin-right: 0;
 }
 
+.absolute {
+	position: absolute;
+}
+
 a {
 	text-decoration: none;
 	font-weight: 500;
@@ -511,7 +516,7 @@ ul {
 	}
 	p {
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 300;
 	}
 }
 
@@ -544,7 +549,9 @@ ul {
 // 		}
 // }
 
-
+.nav>li>a:hover {
+	background: $lightGray;
+}
 .navbar {
 	background-color: rgba(255,255,255,0.95);
 	border-radius:0;
@@ -569,7 +576,7 @@ ul {
 		margin-left: 0;
 		font-size: 1.75em;
 		&:hover {
-			color: black;
+			color: $darkGray;
 		}
 			@include breakpoint (992px) {
 			padding-top: 15px;
@@ -635,7 +642,7 @@ ul {
 	li {
 		height: 100%;
 		&:hover {
-			background: $lightGray;
+			background: $lightGray !important;
 		}
 		button {
 			a {
@@ -832,7 +839,7 @@ header {
     
     	.huge {
 
-			font-size: 2.9em;
+			font-size: 2.7em;
 			font-style: normal;
 			font-weight: 700;
     	}
@@ -1000,6 +1007,8 @@ header {
 		}
 	}
 	@include breakpoint(479px) {
+		background: $backgroundBlue;
+		border-top: 1px solid $borderGray;
 		padding: 0;
 		margin: 0;
 		.row, ul {
@@ -1010,6 +1019,7 @@ header {
 			display: none;
 		}
 		.active {
+			font-weight: 700;
 			padding-bottom: 5px;
 			border-bottom: 1px dotted $darkGray;
 		}
@@ -1019,11 +1029,12 @@ header {
 		}
 		li {
 			margin: 0 1%;
-			padding: 0 0 20px;	
+			padding: 20px 0 45px;	
 			a {
 				font-size: .65em;
 				line-height: 10px;
 				height: 10px;
+				color: $darkGray;
 			}
 		}
 		span {
@@ -1394,7 +1405,7 @@ header {
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf7f7', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-8 */
 
 		@include breakpoint (1200px) {
-		padding: 80px;
+		padding: 80px 0 100px;
 		h1 {
 			font-size: 36px;
 			margin-top: 250px;
@@ -1402,10 +1413,10 @@ header {
 		button {
 				width: 155px;
 		}
-
 	}
 	@include breakpoint (992px) {
-		padding: 60px 0 40px;
+
+		padding: 60px 0 80px;
 		img {
 			margin-top: 30px;
 		}
@@ -1414,7 +1425,7 @@ header {
 			font-size: 26px;
 		}
 		button {
-			width: 125px;
+			width: 130px;
 		}
 		.btnSolid, .btnHallow {
 			padding: .85em 1.25em;
@@ -1431,13 +1442,18 @@ header {
 		h1 {
 			margin-top: 100px;
 		}
+		h4 {
+			font-weight: 300;
+		}
 		img {
 			display: none;
 		}
 		.image {
 			.perspective-iphone {
-			// background-size: 75%;
+			background-size: 75%;
 			background-position: center center;
+			height: auto;
+			margin-top: -30px;
 		}
 		}
 	}
@@ -1461,6 +1477,7 @@ header {
 		}
 		.image {
 			.perspective-iphone {
+
 				display: none;
 			}
 		}
@@ -2351,7 +2368,7 @@ padding-right: 3%;
 		margin: 5px;
 	}
 	@include breakpoint (768px) {
-		padding: 25px 0;
+		padding: 35px 0 25px;
 		button {
 			width: 130px
 		}
