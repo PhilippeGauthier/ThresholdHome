@@ -1286,13 +1286,6 @@ header {
 			text-shadow: none;
 			margin-top: 0;
 		}
-		@include breakpoint (768px) {
-			width: 80%;
-			margin: 0 auto;
-		}
-		@include breakpoint (479px) {
-			width: 90%;
-		}
 
 		.pricing-box-prices {
 			text-align: left;
@@ -1338,7 +1331,32 @@ header {
 		.pricing-box-upsell {
 			padding: 30px;
 
+	}
+	@include breakpoint (992px) {
+		padding: 80px 0;
+	}
+	@include breakpoint (768px) {
+		background: $lightGray;
+		background-image: none;
+		.pricing-box {
+		width: 80%;
+		margin: 0 auto;
 		}
+	}
+	@include breakpoint (479px) {
+		span {
+			&:first-of-type {
+				display: none;
+			}
+		}
+		padding: 0 0 40px;
+		.pricing-box {
+			button {
+				margin-bottom: 20px;
+			}
+		width: 90%;
+		}
+	}
 
 }
 
@@ -1351,10 +1369,18 @@ header {
 }
 
 #FAQ {
+	border-top: 1px solid $borderGray;
 	background: $lightGray;
 	padding: 20px 0;
 	h3 {
 		padding-bottom: 20px 0;
+	}
+	@include breakpoint (479px) {
+		h3 {
+			font-size: 20px;
+			margin-bottom: 20px;
+			font-weight: 500;
+		}
 	}
 }
 
@@ -1523,7 +1549,7 @@ header {
 	position: relative;
 	@include breakpoint (992px) {
 		h2 {
-			margin-top: 40px;
+			margin-top: 50px;
 		}
 		text-align: center;
 		margin: 0 auto;
@@ -1532,6 +1558,11 @@ header {
 		}
 	}
 	@include breakpoint (479px) {
+		p {
+			&:last-of-type {
+				margin-bottom: 40px;
+			}
+		}
 		.features {
 			display: none;
 		}
