@@ -363,7 +363,18 @@ $opacity: 1.0;
   cursor:pointer;
 }
 
+.strong {
+	font-weight: 500;
+	span {
+		color: red;
+	}
+}
 
+.modal {
+	ul {
+		padding-left: 20px;
+	}
+}
 
 /* Themes */
 
@@ -417,10 +428,10 @@ body {
 	line-height: 1.52;
 }
 
-.modal-body {
-  position: relative;
-  padding: 0;
-}
+// .modal-body {
+//   position: relative;
+//   padding: 0;
+// }
 
 .modal-content {
   position: relative;
@@ -1405,6 +1416,9 @@ header {
 			color: $darkGray;
 			font-style: normal;
 			margin-top: 300px;
+		}
+		h2 {
+			color: $darkGray;
 		}
 		h4 {
 			color: $darkGray;
