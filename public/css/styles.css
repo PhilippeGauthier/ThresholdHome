@@ -86,7 +86,7 @@ html {
   height: 100%;
   width: 100%;
   font-size: 50%%; }
-@media (min-width: 30em) {
+@media (min-width: 20em) {
   /* line 13, ../_base.scss */
   html {
     font-size: 80%; } }
@@ -147,7 +147,7 @@ body {
   line-height: 1.5rem;
   font-weight: 300;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
-@media (min-width: 30em) {
+@media (min-width: 20em) {
   /* line 68, ../_base.scss */
   .message h2 {
     color: rgba(215, 215, 215, 0.25); } }
