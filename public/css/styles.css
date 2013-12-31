@@ -135,14 +135,19 @@ body {
 /* line 60, ../_base.scss */
 .message h1 {
   color: #d9d9d9;
+  line-height: 3rem;
   font-size: 3rem;
   font-weight: 300;
   margin-bottom: 1.5rem;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
-/* line 67, ../_base.scss */
+/* line 68, ../_base.scss */
 .message h2 {
-  color: rgba(215, 215, 215, 0.25);
+  color: rgba(215, 215, 215, 0.5);
   font-size: 1.5rem;
   line-height: 1.5rem;
   font-weight: 300;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
+@media (min-width: 30em) {
+  /* line 68, ../_base.scss */
+  .message h2 {
+    color: rgba(215, 215, 215, 0.25); } }
