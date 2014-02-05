@@ -1,4 +1,4 @@
-/* line 17, ../../../../../.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -7,38 +7,38 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-/* line 103, ../../../../../.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none; }
 
-/* line 32, ../../../../../.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		http://the-echoplex.net/flexyboxes/
 		http://msdn.microsoft.com/en-us/library/ie/hh772069%28v=vs.85%29.aspx
 */
-/* line 14, ../../../../../.rbenv/versions/1.9.3-p448/lib/ruby/gems/1.9.1/gems/susy-1.0.9/sass/susy/_grid.scss */
+/* line 14, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_grid.scss */
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -85,23 +85,27 @@ html {
   background-image: linear-gradient(left top, #2a404d 0%, #737b80 100%);
   height: 100%;
   width: 100%;
-  font-size: 50%%; }
-@media (min-width: 20em) {
-  /* line 13, ../_base.scss */
-  html {
-    font-size: 80%; } }
-@media (min-width: 47em) {
-  /* line 13, ../_base.scss */
-  html {
-    font-size: 100%; } }
+  font-size: 100%; }
 
-/* line 31, ../_base.scss */
+/* line 25, ../_base.scss */
 body {
+  -webkit-font-smoothing: antialiased;
   background: url("../img/noise.png");
   height: 100%;
-  font-family: "helvetica-neue", "helvetica", sans-serif; }
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
-/* line 37, ../_base.scss */
+/* line 35, ../_base.scss */
 .logo {
   position: absolute;
   top: 0;
@@ -114,40 +118,73 @@ body {
   background: url("../img/threshold.svg") no-repeat center;
   background-size: contain; }
 
-/* line 47, ../_base.scss */
-.message {
-  width: 83.05085%;
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  height: 100px; }
-/* line 56, ../_base.scss */
-.message h1, .message h2 {
+/* line 45, ../_base.scss */
+h1, h2 {
   text-transform: uppercase;
   text-align: center; }
-/* line 60, ../_base.scss */
-.message h1 {
+
+/* line 49, ../_base.scss */
+h1 {
+  font-family: "refrigerator-deluxe";
   color: #d9d9d9;
-  line-height: 3rem;
-  font-size: 3rem;
-  font-weight: 300;
-  margin-bottom: 1.5rem;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
-/* line 68, ../_base.scss */
-.message h2 {
-  color: rgba(215, 215, 215, 0.5);
+  line-height: 2rem;
   font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+@media (min-width: 30em) {
+  /* line 49, ../_base.scss */
+  h1 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    margin-bottom: 1.5rem; } }
+@media (min-width: 47em) {
+  /* line 49, ../_base.scss */
+  h1 {
+    font-size: 4rem;
+    line-height: 3rem; } }
+
+/* line 67, ../_base.scss */
+h2 {
+  color: rgba(215, 215, 215, 0.5);
+  font-size: .8rem;
+  line-height: 1rem;
   font-weight: 300;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
-@media (min-width: 20em) {
-  /* line 68, ../_base.scss */
-  .message h2 {
-    color: rgba(215, 215, 215, 0.25); } }
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05); }
+@media (min-width: 30em) {
+  /* line 67, ../_base.scss */
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.5rem; } }
+@media (min-width: 47em) {
+  /* line 67, ../_base.scss */
+  h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem; } }
+
+/* line 86, ../_base.scss */
+.contact {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 100;
+  font-size: .85rem; }
+/* line 95, ../_base.scss */
+.contact span {
+  margin: 0 .5rem;
+  color: rgba(255, 255, 255, 0.5); }
+/* line 99, ../_base.scss */
+.contact a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-family: "Helvetica";
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none; }
+/* line 104, ../_base.scss */
+.contact a:hover, .contact a:active {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none; }

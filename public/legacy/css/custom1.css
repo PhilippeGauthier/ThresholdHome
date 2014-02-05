@@ -410,6 +410,18 @@ ul {
 .text-pg-muted {
   color: #666666; }
 
+.navbar li.disabled:hover {
+  background-color: #fff;
+}
+
+.navbar li .disabled {
+  color: #999999;
+}
+
+.navbar li .disabled:hover, .navbar li .disabled:active {
+  color: #999999;
+}
+
 @media (max-width: 767px) {
   /* line 501, ../sass/custom1.scss */
   h1 {
